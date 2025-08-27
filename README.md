@@ -24,7 +24,7 @@ sudo docker run --rm -it -p 8888:80 vulnerables/web-dvwa
 ```
 Access at: http://127.0.0.1:8888
 
-## OWASP Juice Shop
+# OWASP Juice Shop
 # Pull and run Juice Shop
 sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
 Access at: http://127.0.0.1:3000
@@ -88,6 +88,7 @@ ___
 • Impact
 
 • Recommendation
+
 ---
 Example:
 
