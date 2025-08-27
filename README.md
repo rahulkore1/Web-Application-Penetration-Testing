@@ -35,19 +35,19 @@ The penetration testing approach follows the OWASP Top 10 guidelines.
 
 ## 1. Reconnaissance
 
-Mapping the application
+• Mapping the application
 
-Identifying hidden files/directories
+• Identifying hidden files/directories
 
-Detecting technologies used
+• Detecting technologies used
 
-### 2. Vulnerability Assessment
+## 2. Vulnerability Assessment
 
-Cross-Site Scripting (XSS)
+• Cross-Site Scripting (XSS)
 
-SQL Injection
+• SQL Injection
 
-Command Injection
+• Command Injection
 
 Broken Authentication
 
