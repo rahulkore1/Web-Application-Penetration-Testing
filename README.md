@@ -29,11 +29,11 @@ Access at: http://127.0.0.1:8888
 sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
 Access at: http://127.0.0.1:3000
 ---
-### 🔎 Testing Methodology
+# 🔎 Testing Methodology
 
 The penetration testing approach follows the OWASP Top 10 guidelines.
 
-1. Reconnaissance
+## 1. Reconnaissance
 
 Mapping the application
 
@@ -41,7 +41,7 @@ Identifying hidden files/directories
 
 Detecting technologies used
 
-2. Vulnerability Assessment
+### 2. Vulnerability Assessment
 
 Cross-Site Scripting (XSS)
 
