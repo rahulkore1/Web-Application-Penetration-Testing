@@ -77,28 +77,32 @@ ___
 
 # 📊 Reporting
 
-Each test case should include:
+• Each test case should include:
 
-Vulnerability Name
+• Vulnerability Name
 
-Description
+• Description
 
-Steps to Reproduce
+• Steps to Reproduce
 
-Impact
+• Impact
 
-Recommendation
-
+• Recommendation
+---
 Example:
 
-Vulnerability	Description	Steps to Reproduce	Impact	Recommendation
-SQL Injection	Unsanitized input in login form	Enter ' OR 1=1-- in username field	Authentication bypass	Use parameterized queries
-⚠️ Disclaimer
+| Vulnerability | Description                     | Steps to Reproduce                   | Impact                | Recommendation            |
+| ------------- | ------------------------------- | ------------------------------------ | --------------------- | ------------------------- |
+| SQL Injection | Unsanitized input in login form | Enter `' OR 1=1--` in username field | Authentication bypass | Use parameterized queries |
+___
+
+# ⚠️ Disclaimer
 
 This project is for educational purposes only.
 Do NOT use these techniques on real-world applications without proper authorization.
+___
 
-📚 References
+# 📚 References
 
 OWASP Testing Guide
 
