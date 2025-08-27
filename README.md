@@ -26,10 +26,11 @@ Access at: http://127.0.0.1:8888
 
 ### OWASP Juice Shop
 
-# Pull and run Juice Shop
+### Pull and run Juice Shop
 sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
 Access at: http://127.0.0.1:3000
 ___
+
 # 🔎 Testing Methodology
 
 The penetration testing approach follows the OWASP Top 10 guidelines.
