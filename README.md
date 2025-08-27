@@ -40,6 +40,7 @@ The penetration testing approach follows the OWASP Top 10 guidelines.
 • Identifying hidden files/directories
 
 • Detecting technologies used
+___
 
 ## 2. Vulnerability Assessment
 
@@ -49,11 +50,11 @@ The penetration testing approach follows the OWASP Top 10 guidelines.
 
 • Command Injection
 
-Broken Authentication
+• Broken Authentication
 
-Insecure Direct Object References (IDOR)
+• Insecure Direct Object References (IDOR)
 
-CSRF (Cross-Site Request Forgery)
+• CSRF (Cross-Site Request Forgery)
 
 3. Exploitation
 
