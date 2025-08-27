@@ -28,3 +28,78 @@ Access at: http://127.0.0.1:8888
 # Pull and run Juice Shop
 sudo docker run --rm -p 3000:3000 bkimminich/juice-shop
 Access at: http://127.0.0.1:3000
+---
+### 🔎 Testing Methodology
+
+The penetration testing approach follows the OWASP Top 10 guidelines.
+
+1. Reconnaissance
+
+Mapping the application
+
+Identifying hidden files/directories
+
+Detecting technologies used
+
+2. Vulnerability Assessment
+
+Cross-Site Scripting (XSS)
+
+SQL Injection
+
+Command Injection
+
+Broken Authentication
+
+Insecure Direct Object References (IDOR)
+
+CSRF (Cross-Site Request Forgery)
+
+3. Exploitation
+
+Using Burp Suite to intercept and manipulate requests
+
+Exploiting authentication bypasses
+
+Injecting malicious payloads
+
+4. Post-Exploitation
+
+Extracting sensitive information
+
+Privilege escalation
+
+Session hijacking
+
+📊 Reporting
+
+Each test case should include:
+
+Vulnerability Name
+
+Description
+
+Steps to Reproduce
+
+Impact
+
+Recommendation
+
+Example:
+
+Vulnerability	Description	Steps to Reproduce	Impact	Recommendation
+SQL Injection	Unsanitized input in login form	Enter ' OR 1=1-- in username field	Authentication bypass	Use parameterized queries
+⚠️ Disclaimer
+
+This project is for educational purposes only.
+Do NOT use these techniques on real-world applications without proper authorization.
+
+📚 References
+
+OWASP Testing Guide
+
+Burp Suite Docs
+
+DVWA GitHub
+
+OWASP Juice Shop
